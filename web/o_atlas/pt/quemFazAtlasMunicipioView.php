@@ -15,7 +15,7 @@
             <span>&bull; Bárbara Oliveira Marguti </span><br />
         <br /> <br />
         <div class="block-01-div-subtitle_atlas">Equipe Técnica</div>
-            <span style="font-weight: bold; font-size: 13pt; margin-right: 6px;">Ipea</span> &bull; Arlei Teodoro de Queiroz &bull; Clayton Gurgel Albuquerque &bull; Maria Paula Gomes dos Santos &bull; Nikolas de Camargo Pirani &bull; Roberta Amanajás Monteiro <br />
+            <span style="font-weight: bold; font-size: 13pt; margin-right: 6px;">Ipea</span> &bull; Arlei Teodoro de Queiroz &bull; Carlos Vinícius da Silva Pinto &bull; Clayton Gurgel Albuquerque &bull; Luciano Pereira da Silva &bull; Maria Paula Gomes dos Santos &bull; Nikolas de Camargo Pirani &bull; Roberta Amanajás Monteiro <br />
         <br /> <br />
 
 </div>

@@ -41,7 +41,7 @@ function SeletorEspacialidade() {
                             width: "60px",
                             height: "60px"
                         },
-                    }, {
+                    }, */{
                         name: lang_mng.getString("seletor_regioes_metropolitanas"),
                         nameSingleFilter: lang_mng.getString("seletor_regiao_metropolitana"),
                         id: 6,
@@ -75,7 +75,7 @@ function SeletorEspacialidade() {
                             width: "60px",
                             height: "60px"
                         },
-                    }*/],
+                    }],
                 // url: "com/mobiliti/componentes/seletor-espacialidade/Search.services.php",
                 url: "system/modules/seletor-espacialidade/controller/SearchEntities.controller.php",
             },

@@ -320,10 +320,10 @@ var TableComponent = (function($){
                             if(arrayLinksPerfil[j-1] != "") {
                                 var a = $("<a>").attr("title",val).
                                     attr("data-perfil",arrayLinksPerfil[j-1])
-                                    .attr('data-content', arrayDescricao[j-1] +
+                                    .attr('data-content', arrayDescricao[j-1] /*+
                                                         '<br><p style=""><a class="" href="' +
                                                         arrayLinksPerfil[j-1] + '" target="_blank">' +
-                                                        lang_mng.getString('perfil_completo') + '</a></p>')
+                                                        lang_mng.getString('perfil_completo') + '</a></p>'*/)
                                     .attr('data-html', true)
                                     .attr('data-count', j-1)
                                     .addClass("dota-popover")

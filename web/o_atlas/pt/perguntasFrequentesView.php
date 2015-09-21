@@ -478,7 +478,7 @@
     <span><b>Como ler o IVS?</b></span><br>
     <p>O IVS é um índice que varia entre 0 e 1. Quanto mais próximo a 1, maior é a vulnerabilidade social de um território (figura 1). Quanto mais próximo de 0, menor a vulnerabilidade social de um território.</p>
     <p>Para os municípios que apresentam IVS entre 0 e 0,200, considera-se que possuem muito baixa vulnerabilidade social. Valores entre 0,201 e 0,300 indicam baixa vulnerabilidade social. Aqueles que apresentam IVS entre 0,301 e 0,400 são de média vulnerabilidade social, ao passo que, entre 0,401 e 0,500, são considerados de alta vulnerabilidade social. Qualquer valor entre 0,501 e 1 indica que o município possui muito alta vulnerabilidade social.</p>
-    <img src="./assets/img/oAtlas/perguntas_frequentes_como_ler.png" />
+    <img src="./assets/img/oAtlas/pt/perguntas_frequentes_como_ler.png" />
 </div>
 
 <div class="text_met" id="30">
