@@ -23,7 +23,8 @@ function SeletorEspacialidade() {
                         nameSingleFilter: lang_mng.getString("seletor_municipio"),
                         id: 2,
                         method: "getMunicipios",
-                        filters: [[4], [6], [7]],
+                        //filters: [[4], [6], [7]],
+                        filters: [[4], [6]],
                         img: {
                             src: "/atlasbrasil/img/fruit_ninja.png",
                             width: "60px",
@@ -41,7 +42,7 @@ function SeletorEspacialidade() {
                             width: "60px",
                             height: "60px"
                         },
-                    }, */{
+                    },*/ {
                         name: lang_mng.getString("seletor_regioes_metropolitanas"),
                         nameSingleFilter: lang_mng.getString("seletor_regiao_metropolitana"),
                         id: 6,
@@ -63,7 +64,7 @@ function SeletorEspacialidade() {
                             width: "60px",
                             height: "60px"
                         },
-                    }, {
+                    }, /*{
                         name: lang_mng.getString("regionais"),
                         nameSingleFilter: lang_mng.getString("seletor_regional"),
                         id: 3,
@@ -75,7 +76,7 @@ function SeletorEspacialidade() {
                             width: "60px",
                             height: "60px"
                         },
-                    }],
+                    }*/],
                 // url: "com/mobiliti/componentes/seletor-espacialidade/Search.services.php",
                 url: "system/modules/seletor-espacialidade/controller/SearchEntities.controller.php",
             },

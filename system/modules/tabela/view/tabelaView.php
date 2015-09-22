@@ -288,7 +288,7 @@
             <ul id="lista_espacialidade">
                 <li data-id="4"><?php echo $lang_mng->getString('mp_item_camada_estado'); ?></li>
                 <li data-id="6"><?php echo $lang_mng->getString('mp_item_camada_rm'); ?></li>
-                <li data-id="2"><?php echo $lang_mng->getString('mp_item_camada_mun'); ?></li>
+                <!--<li data-id="2"><?php echo $lang_mng->getString('mp_item_camada_mun'); ?></li>-->
                 <li data-id="2"><?php echo $lang_mng->getString('mp_item_camada_ri'); ?></li>
                 <li data-id="5"><?php echo $lang_mng->getString('mp_item_camada_udh'); ?></li>
             </ul>

@@ -669,39 +669,43 @@
 			
 			if(typeof arrayFilters != "undefined" && arrayFilters != false){
 				$.each(arrayFilters,function(i,item){
-					var selector = getSelectorById(item);					
-					if(i == 0){
-						if(arrayFilters.length != 1){
-							$accordion.find('.collapse').removeClass('in');
-							$accordion.find('.templateBody').find('.accordion-heading a').addClass("fs-find-data-filter");
-							$accordion.find('.templateBody').attr("data-toggle","tooltip").attr("data-original-title",lang_mng.getString("seletor_mostrar_lista"));	
+					var selector = getSelectorById(item);
+					if((selector != undefined) && (selector != false) && (selector != "") && (selector != null)){ // Adicionado if para contrabalancear problemas  caso o seletor não exista
+						if(i == 0){
+							if(arrayFilters.length != 1){
+								$accordion.find('.collapse').removeClass('in');
+								$accordion.find('.templateBody').find('.accordion-heading a').addClass("fs-find-data-filter");
+								$accordion.find('.templateBody').attr("data-toggle","tooltip").attr("data-original-title",lang_mng.getString("seletor_mostrar_lista"));	
+							}
+							else if(arrayFilters.length === 1){
+								$accordion.find('.templateBody').find('.accordion-heading a').removeAttr("href");
+							}
+							var idEntity = $('.title-fs-filter').attr("data-id");
+							var text = "";
+							if(data.idSelectorParent == 5 && selector.id == 2) // se a entididade for UDH e o filtro for por munícipio forma título de forma diferente
+								text = lang_mng.getString("seletor_filtrar_udh_por_municipios");
+							else
+								text = lang_mng.getString("seletor_filtrar_por") + selector.nameSingleFilter;
+							$accordion.find('.templateBody').find('.accordion-heading a').text(text).attr('data-id',selector.id);
+							$accordion.find('.templateBody').find('.accordion-inner').html(getListItens(data,data.type));
 						}
-						else if(arrayFilters.length === 1){
-							$accordion.find('.templateBody').find('.accordion-heading a').removeAttr("href");
+						else{
+							$newPanel = $template.clone();
+							var text = "";
+							if(selector.id == 3)
+								text = lang_mng.getString("seletor_filtrar_regionais_por_municipios");							
+							else
+								text = lang_mng.getString("seletor_filtrar_por") +  selector.nameSingleFilter;
+							$newPanel.find('.collapse').removeClass('in');
+							$newPanel.find(".accordion-heading a").attr("href",  "#" + i).text(text).attr('data-id',selector.id).addClass('collapsed').addClass("fs-find-data-filter");
+							$newPanel.attr("data-toggle","tooltip").attr("data-original-title",lang_mng.getString("seletor_mostrar_lista"));
+			           		$newPanel.find(".accordion-body").attr("id", i);
+				            $newPanel.find('.accordion-inner').html('Carregando...');
+				            $accordion.append($newPanel);
 						}
-						var idEntity = $('.title-fs-filter').attr("data-id");
-						var text = "";
-						if(data.idSelectorParent == 5 && selector.id == 2) // se a entididade for UDH e o filtro for por munícipio forma título de forma diferente
-							text = lang_mng.getString("seletor_filtrar_udh_por_municipios");
-						else
-							text = lang_mng.getString("seletor_filtrar_por") + selector.nameSingleFilter;
-						$accordion.find('.templateBody').find('.accordion-heading a').text(text).attr('data-id',selector.id);
-						$accordion.find('.templateBody').find('.accordion-inner').html(getListItens(data,data.type));
 					}
-					else{
-						$newPanel = $template.clone();
-						var text = "";
-						
-						if(selector.id == 3)
-							text = lang_mng.getString("seletor_filtrar_regionais_por_municipios");							
-						else
-							text = lang_mng.getString("seletor_filtrar_por") +  selector.nameSingleFilter;							
-						$newPanel.find('.collapse').removeClass('in');
-						$newPanel.find(".accordion-heading a").attr("href",  "#" + i).text(text).attr('data-id',selector.id).addClass('collapsed').addClass("fs-find-data-filter");
-						$newPanel.attr("data-toggle","tooltip").attr("data-original-title",lang_mng.getString("seletor_mostrar_lista"));
-		           		$newPanel.find(".accordion-body").attr("id", i);
-			            $newPanel.find('.accordion-inner').html('Carregando...');
-			            $accordion.append($newPanel);
+					else {
+						console.log("Item onde ocorreu o problema: " + item);
 					}
 				});					
 			} 

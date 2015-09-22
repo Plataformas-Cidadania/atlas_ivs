@@ -23,7 +23,8 @@ function SeletorEspacialidade() {
                         nameSingleFilter: lang_mng.getString("seletor_municipio"),
                         id: 2,
                         method: "getMunicipios",
-                        filters: [[4], [6], [7]],
+                        //filters: [[4], [6], [7]],
+                        filters: [[4], [6]],
                         img: {
                             src: "/atlasbrasil/img/fruit_ninja.png",
                             width: "60px",
