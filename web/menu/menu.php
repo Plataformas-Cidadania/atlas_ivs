@@ -118,7 +118,7 @@ foreach ($link as $value) {
                    }
                    ?>
 
-                <!--   <?php
+                <?php
                    if (destaque_has_lang(@$_SESSION["lang"])) {
                        ?>
                 <li><a href="<?php echo $path_dir; ?><?php echo $_SESSION["lang"]; ?>/destaques/" <?php
@@ -130,7 +130,7 @@ foreach ($link as $value) {
                    }
                    ?>
 
-                   <?php
+                  <!-- <?php
                    if (perfil_has_lang(@$_SESSION["lang"])) {
                        ?>
                 <li><a href="<?php echo $path_dir; ?><?php echo $_SESSION["lang"]; ?>/perfil/" <?php
@@ -162,6 +162,18 @@ foreach ($link as $value) {
                     echo 'class="ativo"';
                 }
                 ?> id="menu_mapa"><?php echo $lang_mng->getString('menu_mapa'); ?></a></li>
+                    <?php
+                   }
+                   ?>
+
+                   <?php
+                   if (consulta_has_lang(@$_SESSION["lang"])) {
+                       ?>
+                <li><a href="<?php echo $path_dir; ?><?php echo $_SESSION["lang"]; ?>/prosperidade/" <?php
+                if ($pag == 'prosperidade' && $pagNext2 == '') {
+                    echo 'class="ativo"';
+                }
+                ?> id="menu_prosperidade"><?php echo $lang_mng->getString('menu_prosperidade'); ?></a></li>
                     <?php
                    }
                    ?>
@@ -230,10 +242,11 @@ foreach ($link as $value) {
         var pagNext = '<?= $pagNext ?>';
         var pagNext2 = '<?= $pagNext2 ?>';
 
-        if ((pag == 'destaques') || (pag == 'graficos' && pagNext == '') || pag == 'mapa'
+        if ((pag == 'destaques') || (pag == 'graficos' && pagNext == '') || pag == 'mapa' || pag == 'prosperidade'
                 || (pag == 'consulta' && pagNext == '') || (pag == 'perfil' && pagNext2 == '') || (pag == 'download' || pag == 'ranking') ||
                 (pag == 'arvore' && (pagNext == '' || pagNext == 'municipio' || pagNext == 'estado' || pagNext == 'aleatorio'))
-                || (pag == 'o_atlas' && (pagNext == '' || pagNext == 'o_atlas_' || pagNext == 'quem_faz' || pagNext == 'para_que' || pagNext == 'processo' || pagNext == 'desenvolvimento_humano' || pagNext == 'idhm' || pagNext == 'metodologia' && (pagNext2 == 'idhm_longevidade' || pagNext2 == 'idhm_educacao' || pagNext2 == 'idhm_renda') || pagNext == 'glossario' || pagNext == 'perguntas_frequentes' || pagNext == 'tutorial' || pagNext == ''))) {
+                || (pag == 'o_atlas' && (pagNext == '' || pagNext == 'o_atlas_' || pagNext == 'quem_faz' || pagNext == 'para_que' || 
+                pagNext == 'processo' || pagNext == 'desenvolvimento_humano' || pagNext == 'idhm' || pagNext == 'metodologia' && (pagNext2 == 'idhm_longevidade' || pagNext2 == 'idhm_educacao' || pagNext2 == 'idhm_renda') || pagNext == 'glossario' || pagNext == 'perguntas_frequentes' || pagNext == 'tutorial' || pagNext == ''))) {
 
             var pos             = $(".mainMenuTopUl .ativo").position();
             var largura         = $(".mainMenuTopUl .ativo").css("width");

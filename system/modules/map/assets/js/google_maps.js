@@ -428,7 +428,7 @@ GMaps.prototype._criaMarcador = function(mapa, latitude, longitude) {
     return new google.maps.Marker({
         position    : new google.maps.LatLng(latitude, longitude),
         map         : mapa,
-        icon        : url + 'system/modules/map/assets/img/logo_atlasbrasil.png'
+        icon        : url + 'system/modules/map/assets/img/logo_atlasivs.png'
     });
 };
 

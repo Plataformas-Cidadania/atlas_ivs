@@ -137,6 +137,7 @@ $lang_var["atlas_menuIdhmLongevidade"] = "IDHM LONGEVIDADE";
 $lang_var["atlas_menuIdhmEducacao"] = "IDHM EDUCAÇÃO";
 $lang_var["atlas_menuIdhmRenda"] = "IDHM RENDA";
 $lang_var["atlas_menuGlossario"] = "GLOSSÁRIO";
+$lang_var["atlas_menuProsperidade"] = "Prosperidade Social";
 $lang_var["atlas_menuFAQ"] = "PERGUNTAS FREQUENTES";
 $lang_var["atlas_menututorial"] = "TUTORIAL";
 $lang_var["atlas_title"] = "O Atlas";

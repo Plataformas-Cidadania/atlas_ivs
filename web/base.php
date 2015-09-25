@@ -29,7 +29,7 @@ if (sizeof($gets) > 1)
 
     if ($pag == "destaques" || $pag == "consulta" || $pag == "perfil" 
             || $pag == "ranking" || $pag == "o_atlas" || $pag == "download" 
-            || $pag == "arvore" || $pag == 'graficos')
+            || $pag == "arvore" || $pag == 'graficos' || $pag == "prosperidade")
     {
 
         echo "<div class='contentMenu' style=''>";

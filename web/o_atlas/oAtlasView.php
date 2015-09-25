@@ -36,7 +36,7 @@
         else if(valor == 5){
             url = pag + "vulnerabilidade_social/";
         }
-        
+
         else if(valor == 6){
             url = pag + "ivs/";
         }
@@ -57,7 +57,7 @@
         else if(valor == 10){
             url = pag + "tutorial";
         }
-        
+     
         location.href= url;
     }
 </script>
@@ -146,6 +146,7 @@
                     else if($separator[1] == 'para_que'){
                         include 'o_atlas/'.$_SESSION["lang"].'/paraQueView.php';
                     }
+
                     else if($separator[1] == 'processo'){
                        include 'o_atlas/processoView.php';
                     }

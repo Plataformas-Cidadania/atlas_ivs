@@ -138,6 +138,7 @@ define("ARVORE_HAS_LANG", "pt|en|es");
 define("GRAFICO_HAS_LANG", "");
 define("RANKING_HAS_LANG", "pt|en|es");
 define("DONWLOAD_HAS_LANG", "pt|en|es");
+define("PROSPERIDADE_HAS_LANG", "pt|en|es");
 define("HIDE_INTER", true);
 
 

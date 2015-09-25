@@ -87,7 +87,7 @@
     $(document).ready(function(){
         var tempo = 5000;
         var ativo = 0;
-        /*function transicaoBanner(elem){
+        function transicaoBanner(elem){
             clearInterval(interBanner);
             if(elem != -1) {
                 var i = elem;
@@ -107,7 +107,7 @@
             interBanner = setTimeout(function() { transicaoBanner(ativo+1) }, tempo);
         }
 
-        var interBanner = setTimeout(function() { transicaoBanner(ativo+1) }, tempo);*/
+        var interBanner = setTimeout(function() { transicaoBanner(ativo+1) }, tempo);
     });
 </script>
 
@@ -118,9 +118,9 @@
         <li class='ativo'>
             <a href="data/rawData/publicacao_atlas_ivs.pdf"><img src="./assets/img/home/banner/modelo_banner_site_v02.jpg" alt=""></a>
         </li>
-        <!--<li>
+        <li>
             <a href="<?php echo $path_dir . "$ltemp" ?>/download/"><img src="./assets/img/home/banner/banner-cebolao.png" alt=""></a>
-        </li> -->
+        </li>
         <!-- <li>
             <a href="<?php echo $path_dir . "$ltemp" ?>/destaques/"><img src="./assets/img/home/banner/banner_2.jpg" alt=""></a>
         </li> -->
@@ -258,7 +258,7 @@
 
    <div class="row">
         <div class="nh-video-player">
-            <iframe width="440" height="248" src="//www.youtube.com/embed/tnsiRD86iME" frameborder="0" allowfullscreen></iframe>
+            <iframe width="440" height="248" src="//www.youtube.com/embed/BnY1ALlcTyw" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="nh-video-descricao">
         <h3 class="nh-subtitle nh-left">Ipea elabora Índice de Vulnerabilidade Social de municípios</h3>

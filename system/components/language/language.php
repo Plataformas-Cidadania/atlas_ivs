@@ -19,6 +19,16 @@ function atlas_has_lang($lang)
     return false;
 }
 
+function prosperidade_has_lang($lang)
+{
+    $langs = explode("|", PROSPERIDADE_HAS_LANG);
+    foreach ($langs as $value) 
+    {
+        if($value === $lang) return true;
+    }
+    return false;
+}
+
 function destaque_has_lang($lang)
 {
     $langs = explode("|", DESTAQUE_HAS_LANG);
