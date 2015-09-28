@@ -292,11 +292,20 @@ else if ($pag == "pesquisa") {
     }
 }
 
+#Prosperidade
+else if ($pag == "prosperidade") {
+    if ($pagNext != ""  && $pagNext != "udh"  && $pagNext != "regiao-metropolitana"  && $pagNext != "estados"  && $pagNext != "municipios") {
+        include './bloqueios/paginaNaoEncontradaView.php';
+    } else {
+        include "./prosperidade/prosperidadeView.php";
+    }
+}
+
 #O Atlas
 else if ($pag == "o_atlas") {
     if ($pagNext != "" && $pagNext != "o_atlas_" && $pagNext != "quem_faz" && $pagNext != "para_que" && $pagNext != "processo" && $pagNext != "vulnerabilidade_social" && $pagNext != "ivs" && $pagNext != "metodologia" && $pagNext != "glossario" && $pagNext != "perguntas_frequentes" && $pagNext != 'tutorial') {
         include './bloqueios/paginaNaoEncontradaView.php';
-    } else if ($pagNext == 'metodologia' && $pagNext2 != 'calculo-do-ivs' && $pagNext2 != 'ivs_dados' && $pagNext2 != '') {
+    } else if ($pagNext == 'metodologia' && $pagNext2 != 'calculo-do-ivs' && $pagNext2 != 'ivs_dados' && $pagNext2 != 'prosperidade' && $pagNext2 != '') {
         include './bloqueios/paginaNaoEncontradaView.php';
     } else {
         include "./o_atlas/oAtlasView.php";

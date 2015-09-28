@@ -14,7 +14,7 @@
 <script type="text/javascript">
     function myfunction(valor){
        lang = '<?=$_SESSION["lang"]?>';
-        pag = '<?=$path_dir?>' + lang + '/o_atlas/prosperidade-social/';
+        pag = '<?=$path_dir?>' + lang + '/prosperidade/';
 
         if(valor == 1){
             /*url = pag + "atlas_municipio/";*/
@@ -49,14 +49,14 @@
         </div>  
          <div class="menuAtlas">
             <ul class="menuAtlasUl" style="margin-left: 19px">
-                <li><a id="atlas_menuAtlasProsperidadeMunicipal" onclick="myfunction2('1')" 
-                    <?php if($separator[2] == 'Municipal' || $separator[0] == '') {echo 'class="ativo2"'; } ?>></a><span class='ballMarker'>&bull;</span></li>
-                <li><a id="atlas_menuAtlasProsperidadeEstadual" onclick="myfunction2('2')" 
-                    <?php if($separator[2] == 'Estadual' || $separator[0] == '') {echo 'class="ativo2"'; } ?>></a><span class='ballMarker'>&bull;</span></li>
-                <li><a id="atlas_menuAtlasProsperidadeRegiaoMetropolitana" onclick="myfunction2('3')" 
-                    <?php if($separator[2] == 'RegiaoMetropolitana') {echo 'class="ativo2"';}?> ></a><span class='ballMarker'></span></li>
-                <li><a id="atlas_menuAtlasProsperidadeUDH" onclick="myfunction2('4')" 
-                    <?php if($separator[2] == 'RegiaoMetropolitana') {echo 'class="ativo2"';}?> ></a><span class='ballMarker'></span></li>
+                <li><a id="prosperidade_menuMunicipal" onclick="myfunction('1')" 
+                    <?php if($separator[1] == 'Municipal' || $separator[0] == '') {echo 'class="ativo2"'; } ?>></a><span class='ballMarker'>&bull;</span></li>
+                <li><a id="prosperidade_menuEstadual" onclick="myfunction('2')" 
+                    <?php if($separator[1] == 'Estadual') {echo 'class="ativo2"'; } ?>></a><span class='ballMarker'>&bull;</span></li>
+                <li><a id="prosperidade_menuRM" onclick="myfunction('3')" 
+                    <?php if($separator[1] == 'RegiaoMetropolitana') {echo 'class="ativo2"';}?> ></a><span class='ballMarker'>&bull;</span></li>
+                <li><a id="prosperidade_menuUDH" onclick="myfunction('4')" 
+                    <?php if($separator[1] == 'UDH') {echo 'class="ativo2"';}?> ></a><span class='ballMarker'></span></li>
             </ul>
         </div>
         <div class="linhaDivisoria"></div>
@@ -66,20 +66,17 @@
 
         <div id="conteudo_atlas">
             <?php
-                if($separator[2] == 'municipios' || $separator[1] == ''){
+                if($separator[1] == 'municipios' || $separator[1] == ''){
                     include 'prosperidade/'.$_SESSION["lang"].'/prosperidadeMunicipios.php';
                 }
-                else if($separator[2] == 'estados'){
+                else if($separator[1] == 'estados'){
                     include 'prosperidade/'.$_SESSION["lang"].'/prosperidadeEstados.php';
                 }
-                else if($separator[2] == 'regiao-metropolitana'){
+                else if($separator[1] == 'regiao-metropolitana'){
                     include 'prosperidade/'.$_SESSION["lang"].'/prosperidadeRM.php';
                 }
-                else if($separator[2] == 'udh'){
+                else if($separator[1] == 'udh'){
                     include 'prosperidade/'.$_SESSION["lang"].'/prosperidadeUDH.php';
-                }
-                else {
-                    include 'prosperidade/'.$_SESSION["lang"].'/prosperidadeMunicipios.php';
                 }
             ?>
         </div>
@@ -90,18 +87,10 @@
 
 <script type="text/javascript">
 //     $(".voltarTopo").html(lang_var.getString("voltarTopo"));;
-     $("#atlas_titleOAtlas").html(lang_mng.getString("atlas_titleOAtlas"));
-     $("#atlas_menuOAtlas").html(lang_mng.getString("atlas_menuOAtlas"));
-     $("#atlas_menuQuemFaz").html(lang_mng.getString("atlas_menuQuemFaz"));
-     $("#atlas_menuParaQue").html(lang_mng.getString("atlas_menuParaQue"));
-     $("#atlas_menuProcesso").html(lang_mng.getString("atlas_menuProcesso"));
-     $("#atlas_menuVulnerabilidadeSocial").html(lang_mng.getString("atlas_menuVulnerabilidadeSocial"));
-     $("#atlas_menuIvs").html(lang_mng.getString("atlas_menuIvs"));
-     $("#atlas_menuIvs").html(lang_mng.getString("atlas_menuProsperidade"));
-     $("#atlas_menuMetodologia").html(lang_mng.getString("atlas_menuMetodologia"));
-     $("#atlas_menuGlossario").html(lang_mng.getString("atlas_menuGlossario"));
-     $("#atlas_menuFAQ").html(lang_mng.getString("atlas_menuFAQ"));
-     $("#atlas_menututorial").html(lang_mng.getString("atlas_menututorial"));
+     $("#prosperidade_menuMunicipal").html(lang_mng.getString("prosperidade_menuMunicipal"));
+     $("#prosperidade_menuEstadual").html(lang_mng.getString("prosperidade_menuEstadual"));
+     $("#prosperidade_menuRM").html(lang_mng.getString("prosperidade_menuRM"));
+     $("#prosperidade_menuUDH").html(lang_mng.getString("prosperidade_menuUDH"));
 </script>
 <?php
     $title = $lang_mng->getString("atlas_title");

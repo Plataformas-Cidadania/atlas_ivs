@@ -4032,3 +4032,11 @@ button.disabled {
     -ms-user-select: none;
     user-select: none;
 }
+
+#processo p {
+    text-align: justify;
+}
+
+#processo img {
+    padding-top: 10px;
+}

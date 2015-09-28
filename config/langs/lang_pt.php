@@ -50,7 +50,14 @@ $lang_var["menu_arvore"] = "ÁRVORE";
 $lang_var["menu_graficos"] = "GRÁFICOS";
 $lang_var["menu_ranking"] = "RANKING";
 $lang_var["menu_download"] = "DOWNLOAD";
-    
+$lang_var["menu_prosperidade"] = "PROSPERIDADE";
+
+#=========== PROSPERIDADE
+$lang_var["prosperidade_menuMunicipal"] = "Municipal";
+$lang_var["prosperidade_menuEstadual"] = "Estadual";
+$lang_var["prosperidade_menuRM"] = "Região Metropolitana";
+$lang_var["prosperidade_menuUDH"] = "UDH";
+
 #=========== HOME
 $lang_var["home_busca_municipio"] = "município";
 $lang_var["home_busca_estado"] = "estado";

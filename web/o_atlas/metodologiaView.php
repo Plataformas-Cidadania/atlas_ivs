@@ -25,7 +25,7 @@
         }
 
         else if(valor == 3){
-            url = pag + "ivs_renda/";
+            url = pag + "properidade/";
         }
 
         else if(valor == 4){
