@@ -1,22 +1,23 @@
 <div>
     <div id ="img_realizacao"></div>
     <div id ="texto_realizacao">
-        <div class="block-01-div-subtitle_atlas">Realização</div>
+        <div class="block-01-div-subtitle_atlas">Realização</div><br />
+		<span>Jessé Souza  &bull; Presidente do Ipea </span>
         <img src='./assets/img/oAtlas/realizacao_atlas.png' style="margin-top:30px;"/>
-        <br /><br /><br />
-        <p>
-        <b>
-            <span>Instituto de Pesquisa Econômica Aplicada – Ipea</span><br />
-        </b>
-        </p>
-
-        <div class="block-01-div-subtitle_atlas">Coordenação</div>
+        
+        <div class="block-01-div-subtitle_atlas">Direção</div>
             <span>&bull; Marco Aurélio Costa </span><br />
+
+        <br /> 
+		
+		<div class="block-01-div-subtitle_atlas">Coordenação</div>
+
             <span>&bull; Bárbara Oliveira Marguti </span><br />
-        <br /> <br />
+        <br /> 
+		
         <div class="block-01-div-subtitle_atlas">Equipe Técnica</div>
-            <span style="font-weight: bold; font-size: 13pt; margin-right: 6px;">Ipea</span> &bull; Arlei Teodoro de Queiroz &bull; Carlos Vinícius da Silva Pinto &bull; Clayton Gurgel Albuquerque &bull; Luciano Pereira da Silva &bull; Maria Paula Gomes dos Santos &bull; Nikolas de Camargo Pirani &bull; Roberta Amanajás Monteiro <br />
-        <br /> <br />
+        <span style="font-weight: bold; font-size: 13pt; margin-right: 6px;">Ipea</span> &bull; Arlei Teodoro de Queiroz &bull; Carlos Vinícius da Silva Pinto &bull; Clayton Gurgel Albuquerque &bull; Luciano Pereira da Silva &bull; Maria Paula Gomes dos Santos &bull; Nikolas de Camargo Pirani &bull; Roberta Amanajás Monteiro <br /><br /> 
+		<span><b>Desenvolvimento Atlas Web</b></span> Erivelton Guedes (Ipea) &bull; Rodrigo Queiroz &bull; Gabriel Soares Quirino da Silva Fonseca <br /><br /><br />
 
 </div>
 </div>
