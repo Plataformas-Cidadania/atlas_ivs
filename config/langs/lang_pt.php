@@ -42,7 +42,7 @@ $lang_var["idhm_longevidade_title_tag"] = "IDHM Longevidade | Metodologia";
 #========== MENU
 $lang_var["menu_home"] = "HOME";
 $lang_var["menu_oAtlas"] = "O ATLAS";
-$lang_var["menu_destaques"] = "DESTAQUES";
+$lang_var["menu_destaques"] = "NOTÍCIAS";
 $lang_var["menu_perfil"] = "PERFIL";
 $lang_var["menu_consulta"] = "CONSULTA";
 $lang_var["menu_mapa"] = "MAPA";
@@ -97,15 +97,15 @@ $lang_var["home_metaDescricao"] = "O Atlas da vulnerabilidade Social é um banco
 $lang_var['home_oAtlasDescricao'] = "O Atlas do Desenvolvimento Humano no Brasil é um site que traz o Índice de Desenvolvimento Humano Municipal (IDHM) e outros 200 indicadores de demografia, educação, renda, trabalho, habitação e vulnerabilidade para os municípios brasileiros.";
 
 #=========== DESTAQUES
-$lang_var["destaques_title"] = 'DESTAQUES';
+$lang_var["destaques_title"] = 'NOTÍCIAS';
 $lang_var["destaques_metodologia"] = 'METODOLOGIA';
 $lang_var["destaques_faixas_idhm"] = 'FAIXAS IDHM';
 $lang_var["destaques_idhmBrasil"] = 'IDHM BRASIL';
 $lang_var["destaques_educacao"] = 'EDUCAÇÃO';
 $lang_var["destaques_longevidade"] = 'LONGEVIDADE';
 $lang_var["destaques_renda"] = 'RENDA';
-$lang_var["destaques_titleAba"] = 'Destaques';
-$lang_var["destaques_Title"] = 'DESTAQUES';
+$lang_var["destaques_titleAba"] = 'Notícias';
+$lang_var["destaques_Title"] = 'NOTÍCIAS';
 $lang_var["destaques_metaDescricao"] = 'O Atlas da vulnerabilidade Social é uma plataforma de consulta ao Índice da Vulnerabilidade Social – IVS - de 5.565 municípios brasileiros, além de mais de 180 indicadores de população, educação, habitação, saúde, trabalho, renda e vulnerabilidade, com dados extraídos dos Censos Demográficos de 1991, 2000 e 2010.';
 $lang_var["destaques_titleAbaMetodologia"] = 'Destaques - Metodologia';
 $lang_var["destaques_metaTitleMet"] = 'DESTAQUES - METODOLOGIA';
@@ -266,6 +266,7 @@ $lang_var["download_mun_uf_pais"] = "Município/Estado/País";
 $lang_var["download_button"] = "Download";
 $lang_var["download_ivs"] = "Vulnerabilidade Social";
 $lang_var["download_pub_ivs"] = "Publicação: Atlas da Vulnerabilidade Social nos Municípios Brasileiros";
+$lang_var["download_pub_ivs_rm"] = "Publicação: Atlas da Vulnerabilidade Social nas Regiões Metropolitanas";
 $lang_var["download_dados_ivs"] = "Download dos Dados Brutos";
 $lang_var["download_publicacao_idhm"] = "Publicação: O Índice de Desenvolvimento Humano Municipal Brasileiro";
 $lang_var["download_atlas_editorado_web"] = "Atlas das Regiões Metropolitanas Brasileiras: Baixada Santista, Campinas, Maceió e Vale do Paraíba e Litoral Norte";

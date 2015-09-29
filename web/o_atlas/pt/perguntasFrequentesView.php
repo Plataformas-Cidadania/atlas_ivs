@@ -62,6 +62,23 @@
     <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#35">Quando leio na base de dados que determinado município teve índice 1,000 no indicador “taxa de desocupação da população de 18 anos ou mais de idade”, quer dizer que toda a população com 18 anos ou mais está desocupada nesse município?</a></li>
     <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#36">O que é a prosperidade social?</a></li>
 </ul>
+<div style="font-weight: bold">O Atlas da Vulnerabilidade Social nas Regiões Metropolitanas Brasileiras<br /><br /></div>
+<ul class="nav navbar-nav">
+    <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#37">O que é o Atlas da Vulnerabilidade Social nas Regiões Metropolitanas?</a></li>
+    <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#38">Quantas regiões metropolitanas estão incluídas no Atlas IVS?</a></li>
+    <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#39">Todas as regiões metropolitanas do país estão no Atlas do Desenvolvimento Humano no Brasil?</a></li>
+    <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#40">Os dados do Atlas das Regiões Metropolitanas também são extraídos dos Censos Demográficos? Para quais anos teremos os indicadores disponibilizados?</a></li>
+    <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#41">Qual a composição de cada região metropolitana? Todos os municípios metropolitanos fazem parte do Atlas?</a></li>
+    <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#42">O IVS possui a mesma metodologia de cálculo para os municípios, Unidades Federativas, Unidades de Desenvolvimento Humano e regiões metropolitanas?</a></li>
+    <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#43">O que é uma Unidade de Desenvolvimento Humano (UDH)?</a></li>
+    <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#44">Como é feita a obtenção de dados das UDHs?</a></li>
+    <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#45">O que é um setor censitário?</a></li>
+    <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#46">O que é uma área de ponderação?</a></li>
+    <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#47">Como foram nomeadas as UDH?</a></li>
+    <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#48">Quais são os critérios para a divisão das UDHs?</a></li>
+    <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#49">Como é feita a divisão regional?</a></li>
+    <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#50">Há previsão de inclusão de outras regiões metropolitanas?</a></li>
+</ul>
 <!--<div style="font-weight: bold">O Atlas das Regiões Metropolitanas<br /><br /></div>
 <ul class="nav navbar-nav">
     <li><a href="<?php echo $path_dir.$_SESSION['lang']; ?>/o_atlas/perguntas_frequentes/#36">O que é o Atlas das Regiões Metropolitanas?</a></li>
@@ -518,6 +535,96 @@
     <p>A análise integrada do desenvolvimento humano (por meio do Índice de Desenvolvimento Humano Municipal, IDHM) com a vulnerabilidade social oferece o que se denomina aqui de “prosperidade social”. A prosperidade social é a ocorrência simultânea do alto desenvolvimento humano com a baixa vulnerabilidade social, sugerindo que, nas porções do território onde ela se verifica, ocorre uma trajetória de desenvolvimento humano menos vulnerável e socialmente mais próspera.</p>
     <p>A prosperidade social reflete uma situação em que o desenvolvimento humano se assenta em bases sociais mais robustas, onde o capital familiar e escolar, as condições de inserção no mundo do trabalho e as condições de moradia e de acesso à infraestrutura urbana da população são tais que há uma perspectiva de prosperidade não apenas econômica, mas das condições de vida no meio social. Para mais informações sobre o IDHM, acesse <a href="http://www.atlasbrasil.org.br">Atlas Brasil</a>.</p>
 </div>
+
+<div class="block-01-div-subtitle">O Atlas da Vulnerabilidade Social nas Regiões Metropolitanas Brasileiras<br /><br /></div>
+
+<div class="text_met" id="37">
+    <span><b>O que é o Atlas da Vulnerabilidade Social nas Regiões Metropolitanas?</b></span>
+    <p>O Atlas do IVS nas Regiões Metropolitanas mostra o Índice de Vulnerabilidade Social e demais indicadores para algumas das mais importantes regiões metropolitanas do país. O Atlas do IVS nas Regiões Metropolitanas possibilita conhecer aspectos da realidade socioeconômica no nível intramunicipal e identificar desigualdades socioespaciais nas e entre as diferentes porções do território dessas regiões metropolitanas. Os dados intramunicipais são calculados para Unidades de Desenvolvimento Humano (UDHs), que são agrupamentos de setores censitários com feições urbanísticas, sociais e econômicas homogêneas.</p>
+</div>
+
+<div class="text_met" id="38">
+    <span><b>Quantas regiões metropolitanas estão incluídas no Atlas IVS?</b></span>
+    <p>O Atlas IVS engloba 16 indicadores relativos a 16 regiões metropolitanas: Belém, Belo Horizonte, Curitiba, Fortaleza, Goiânia, Grande São Luís, Grande Vitória, Manaus, Natal, Porto Alegre, Recife, RIDE do Distrito Federal, Rio de Janeiro, Salvador, São Paulo e Vale do Rio Cuiabá.</p>
+</div>
+
+<div class="text_met" id="39">
+    <span><b>Todas as regiões metropolitanas do país estão no Atlas do Desenvolvimento Humano no Brasil?</b></span>
+    <p>Não, somente 16 regiões metropolitanas foram contempladas no Atlas até o momento.</p>
+</div>
+
+<div class="text_met" id="40">
+    <span><b>Os dados do Atlas das Regiões Metropolitanas também são extraídos dos Censos Demográficos? Para quais anos teremos os indicadores disponibilizados?</b></span>
+    <p>Sim, todos os dados do Atlas são extraídos dos Censos Demográficos do IBGE. Nesta edição, são apresentados os dados relativos a 2000 e 2010, compatibilizados em conformidade com a malha censitária de 2010.</p>
+</div>
+
+<div class="text_met" id="41">
+    <span><b>Qual a composição de cada região metropolitana? Todos os municípios metropolitanos fazem parte do Atlas?</b></span>
+    <p>Além de todos os munícipios que compõem as RMs incluídas no Atlas do IVS, existem também os recortes intramunicipais denominados de Unidades de Desenvolvimento Humano (UDHs). Portanto, haverá dados disponíveis para as UDHs de cada um dos municípios brasileiros que componham as regiões metropolitanas abrangidas pelo Atlas.</p>
+</div>
+
+<div class="text_met" id="42">
+    <span><b>O IVS possui a mesma metodologia de cálculo para os municípios, Unidades Federativas, Unidades de Desenvolvimento Humano e regiões metropolitanas?</b></span>
+    <p>Sim, a metodologia de cálculo do IVS é a mesma, independente da espacialidade.</p>
+</div>
+
+<div class="text_met" id="43">
+    <span><b>O que é uma Unidade de Desenvolvimento Humano (UDH)?</b></span>
+    <p>As UDHs são recortes territoriais localizados dentro das áreas metropolitanas que podem ser uma parte de um bairro, um bairro completo ou, em alguns casos, até um município pequeno. A definição dos limites das UDHs é entendida a partir da homogeneidade socioeconômica das mesmas, formadas com base nos setores censitários do IBGE.</p>
+
+<div class="text_met" id="44">
+    <span><b>Como é feita a obtenção de dados das UDHs?</b></span>
+    <p>Apesar de coletado em nível de domicílios e de pessoas, os dados dos Censos somente são liberados agregados, para evitar a exposição de informações personalizadas. No caso das informações constantes no questionário aplicado no universo dos domicílios, os dados estão disponíveis para os setores censitários. Já no caso do questionário da amostra, do qual o Atlas retira a maior parte de seus indicadores, os dados estão disponíveis apenas para as áreas de ponderação.</p>
+    <p>Para obter o acesso aos dados do questionário da amostra para recortes espaciais diferentes daqueles correspondentes às áreas de ponderação, os usuários devem submeter um projeto com a proposta da nova agregação para avaliação do IBGE, observando as exigências de confiabilidade estatística e obedecendo a critérios que serão rigorosamente avaliados por um comitê técnico. Entre os parâmetros avaliados pelo comitê, destaca-se, em especial, a exigência de que as áreas criadas devem ter, pelo menos, 400 domicílios particulares permanentes amostrados.</p>
+    <p>Uma vez aprovado o projeto com a criação de novos recortes espaciais para extração de dados, os usuários utilizam uma sala especial disponibilizada pelo IBGE, a chamada “sala de sigilo”, em que têm acesso aos microdados dos Censos segundo sua agregação espacial. Os resultados agregados obtidos a partir dos microdados passam ainda pela avaliação de consistência pelo IBGE antes de serem finalmente liberados ao usuário.</p>
+    <p>O processo acima descrito descreve os procedimentos observados pela equipe do projeto para obtenção dos indicadores do Atlas do Desenvolvimento Humano nas Regiões Metropolitanas, no caso dos recortes espaciais chamados de Unidades de Desenvolvimento Humano (UDH).</p>
+</div>
+
+<div class="text_met" id="45">
+    <span><b>O que é um setor censitário?</b></span>
+    <p>O setor censitário é constituído de áreas contíguas, delimitadas para atender aos parâmetros da coleta e para controle cadastral. Situa-se em um único quadro urbano ou rural e o número de domicílios nele contidos e sua dimensão territorial são definidos de forma a permitir o levantamento das informações por um único recenseador. É definido em função da rota do recenseador, obedecendo a barreiras físicas e à lógica dos logradouros. Sua configuração assemelha-se às rotas dos leituristas de relógio de água, de energia elétrica, de endereçamento postal ou de coleta de lixo (normalmente quarteirões em centros urbanos, prédios muito grandes, etc). Com isso, tende a ser mais homogêneo nas áreas de maior densidade populacional e menos nas mais rarefeitas.</p>
+</div>
+
+<div class="text_met" id="46">
+    <span><b>O que é uma área de ponderação?</b></span>
+    <p>A área de ponderação, por seu turno, é uma unidade geográfica formada por um agrupamento de setores censitários contíguos, para a aplicação dos procedimentos de calibração das estimativas obtidas com a amostra com as informações conhecidas para a população como um todo.</p>
+</div>
+
+<div class="text_met" id="47">
+    <span><b>Como foram nomeadas as UDH?</b></span>
+    <p>Os parceiros estaduais do Atlas contribuíram com a nomeação das UDHs, conforme sua configuração no espaço urbano dos municípios metropolitanos.</p>
+    <p>Quando uma única UDH corresponde integralmente (ou quase integralmente) a um bairro/recorte territorial conhecido pela população, o nome da UDH corresponde ao nome deste bairro ou recorte territorial.Quando o bairro ou recorte territorial possui um apelido ou nome popularmente conhecido, este pode ter sido anotado entre parênteses (bastante comum no caso de vilas, aglomerados, favelas e assentamentos identificados como subnormais). Como a consulta ao Atlas poderá ser feita pelo nome da UDH a partir de qualquer parte deste nome, vale a pena colocar esses “apelidos”, pois eles poderão facilitar a consulta ao Atlas.</p>
+    <p style="padding-left: 3em;">Exemplos: Milionários</p>
+    <p style="padding-left:6em;">Lindéia</p>
+    <p>Quando a junção de dois ou mais bairros/recortes territoriais conhecidos correspondem a uma única UDH, o nome da UDH faz referência a todos esses nomes.</p>
+    <p>Exemplos: Lourdes / Santo Agostinho</p>
+    <p>Lourdes e Santo Agostinho são bairros contíguos, homogêneos em termos socioeconômicos e, juntos, formam uma única UDH. O nome da UDH inclui a referência aos dois bairros, e, ao fazer a consulta à Plataforma, você irá encontrar a UDH correspondente a esses bairros ao digitar o nome de qualquer um deles.</p>
+    <p>Quando duas UDHs diferentes fazem parte de um mesmo bairro/recorte territorial, o nome do bairro/recorte territorial se encontra seguido do sinal de dois pontos, seguido dos nomes de referência que ajudaram a distinguir uma UDH de outra.</p>
+    <p>Desta forma, há várias UDHs com o mesmo nome de bairro/recorte territorial, mas após os dois pontos (:) as informações complementares facilitam o usuário na identificação de cada UDH, de cada parte do bairro/recorte territorial em questão.</p>
+    <p style="padding-left: 3em;">Exemplos: Sagrada Família : Horto</p>
+    <p style="padding-left: 6em;"> Sagrada Família : Pátio da Estação Ferroviária</p>
+    <p>Caso a referência complementar ao nome do bairro/recorte territorial envolva mais de uma referência, todos os nomes podem ser utilizados.</p>
+    <p style="padding-left: 3em;">Exemplos: Hipercentro : Imprensa Oficial / Pça. da Estação / Rodoviária</p>
+</div>
+
+<div class="text_met" id="48">
+    <span><b>Quais são os critérios para a divisão das UDHs?</b></span>
+    <p>As UDHs foram delineadas buscando gerar áreas mais homogêneas, do ponto de vista das condições socioeconômicas, do que as áreas de ponderação do IBGE. Ou seja, elas são construídas com o objetivo de melhor captar a diversidade de situações relacionadas com o desenvolvimento humano que ocorre no interior dos espaços intrametropolitanos, notadamente em seus grandes municípios, para desvendar o que é escondido pelas médias municipais agregadas, como apresentadas no Atlas do Desenvolvimento Humano nos Municípios.</p>
+    <p>Enquanto a lógica das áreas de ponderação do IBGE atendem a quesitos técnicos relacionados ao processo de coleta e amostragem, as UDHs estão voltadas para a análise espacial das Regiões Metropolitanas (RM) por meio de recortes espaciais de maior homogeneidade socioeconômica, com o objetivo de retratar as desigualdades intrametropolitanas de forma mais contundente.</p>
+    <p>Para se propor esses novos recortes espaciais para a análise e aprovação do IBGE, não foi utilizado nenhum modelo econométrico que pudesse ser aplicado para gerar a conformação das UDHs em todas as RMs do país. As características da vida urbano/metropolitana levam a conformações socioespaciais muito diversas e a homogeneidade obtida por meio da variável A ou B não necessariamente seria igual (ou delinearia a mesma área) se medida por uma segunda variável, considerando-se, ainda, que os próprios setores censitários já trazem consigo algum nível de heterogeneidade. E cada lugar tem a sua morfologia e sua história de ocupação do espaço urbano.</p>
+    <p>Assim, para além das possibilidades associadas à análise das variáveis disponíveis para todos os setores censitários (que poderia ser contemplada por algum modelo econométrico), diversas situações que alteram os dados dos setores censitários (tal como a existência de um único condomínio vertical que altera a média dos dados de um setor censitário) e características da ocupação urbana (tais como idade e perfil dos assentamentos), podem não ser captadas, por exemplo, pela variável renda, e podem interferir nos indicadores sociodemográficos das UDHs. Isto fez com que fosse necessário construir a proposta das UDHs em cada RM de modo “customizado”, atentando-se para as especificidades de cada espaço metropolitano considerado.</p>
+</div>
+
+<div class="text_met" id="49">
+    <span><b>Como é feita a divisão regional?</b></span>
+    <p>Na construção das UDHs que aparecem no Atlas e na eventual agregação de UDHs para fins de extração dos dados da amostra, nos municípios em que havia recortes regionais compatíveis com a malha dos setores censitários do Censo Demográfico 2010, esses recortes foram respeitados, de modo que os indicadores estão disponíveis para níveis territoriais (regiões administrativas, regionais, distritos, subprefeituras, etc.) intermediários, inframunicipais, que são agregações das UDHs que compõem essas escalas.</p>
+</div>
+
+<div class="text_met" id="50">
+    <span><b>Há previsão de inclusão de outras regiões metropolitanas?</b></span>
+    <p>Caso governos estaduais, municipais, órgãos de gestão metropolitana, empresas ou outros atores sociais e políticos e agentes econômicos tenham interesse em incluir outras RMs nesta plataforma, as instituições responsáveis pelo Atlas devem ser consultadas e irão avaliar as condições e recursos necessários para a inclusão de novas RM.</p>
+</div>
+
 
 
 <?php

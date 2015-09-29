@@ -100,9 +100,9 @@
 
         <div id="conteudo_atlas">
             <?php
-            if ($separator[1] == 'metodologia' || $separator[1] == '') {
+            /*if ($separator[1] == 'metodologia' || $separator[1] == '') {
                 /*include 'destaques/' . $_SESSION["lang"] . '/metodologiaView.php';*/
-                include 'destaques/' . $_SESSION["lang"] . '/listaDestaques.php';
+            /*    include 'destaques/' . $_SESSION["lang"] . '/listaDestaques.php';
             } 
             else if ($separator[1] == 'regioes-metropolitanas-avancam-desenvolvimento-humano-reduzem-disparidades') {
                 
@@ -122,7 +122,7 @@
             }
             else if ($separator[1] == 'idhmBrasil') {
                 include 'destaques/' . $_SESSION["lang"] . '/idhmBrasilView.php';
-            }
+            }*/
             ?>
         </div>
     </div>

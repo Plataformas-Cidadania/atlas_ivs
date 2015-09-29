@@ -25,7 +25,7 @@
         }
 
         else if(valor == 3){
-            url = pag + "properidade/";
+            url = pag + "prosperidade/";
         }
 
         else if(valor == 4){

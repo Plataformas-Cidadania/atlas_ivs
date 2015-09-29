@@ -53,7 +53,7 @@
         <div class="linhaDivisoria"></div>
         
         <div id="conteudo_atlas">
-            <?php
+            <?php/*
             if ($separator[1] == 'metodologia' || $separator[1] == '') {
                 include 'destaques/' . $_SESSION["lang"] . '/metodologiaView.php';
             } 
@@ -71,7 +71,7 @@
             } 
             else if ($separator[1] == 'renda') {
                 include 'destaques/' . $_SESSION["lang"] . '/rendaView.php';
-            }
+            }*/
             ?>
         </div>
     </div>

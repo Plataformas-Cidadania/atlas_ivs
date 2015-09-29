@@ -81,6 +81,14 @@ Class Download {
                                     .'</a>'
                             .'</td>'
             .'</tr>'
+            .'<tr style="width: 100px; height: 35px;border-bottom: 1px solid #ccc;">'
+                .'<td style="border-left: 1px solid #ccc; text-align: center;width: 100px;">'.$this->lang->getString("download_pub_ivs_rm").'</td>'
+                .'<td style="border-left: 1px solid #ccc; border-right: 1px solid #ccc; text-align: center;width: 100px;">'
+                                    .'<a href="data/rawData/publicacao_atlas_ivs_rm.pdf" target="_blank">'
+                                            .'<button type="button" class="blue_button big_bt"  style="margin-top: 0px; font-size: 14px; height: 25px; margin-left: 40%; padding: 1px 15px;" id="download_buttonBaixe">'.$this->lang->getString("download_title").'</button>'
+                                    .'</a>'
+                            .'</td>'
+            .'</tr>'
 
 		/*.'<tr style="width: 100px; height: 35px;">' .
 		                            '<td colspan="2" style=" border-left: 1px solid #ccc; border-right: 1px solid #ccc; text-align: center; font-weight: bold; width: 100px;" id="download_rm">'.$this->lang->getString("download_rm").'</td>' .

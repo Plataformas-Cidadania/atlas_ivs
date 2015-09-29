@@ -1490,7 +1490,7 @@ GMaps.prototype.mudaLinhaDoContorno = function(coords) { //, corLinha, larguraLi
  * @returns {string}
  */
 GMaps.prototype._formataInfoValor = function(valor) {
-    return lang_mng.getString('mp_valor_indicador') + ' : <span class="info_valor" style="color:#999;">' + ("" + valor).replace(/\./, ',') + "</span>";
+    return lang_mng.getString('mp_valor_indicador') + ' : <span class="info_valor" style="color:#999;">' + ("" + valor).replace(/\./, ',').replace(/\B(?=(\d{3})+(?!\d))/g, "."); + "</span>";
 };
 
 /**
