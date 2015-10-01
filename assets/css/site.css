@@ -4040,3 +4040,39 @@ button.disabled {
 #processo img {
     padding-top: 10px;
 }
+
+.nh-perfil-busca a {
+	cursor: pointer;
+}
+
+span.container {
+    display: inline-block;
+    min-width: 120px;
+    font-size: 16px;
+}
+
+span.container div {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+span.container div.caixa {
+	font-size: 30px;
+    padding: 15px;
+    border: 3px solid #999;
+    border-radius: 10px;
+    text-align: center;	
+}
+
+span.destaque_azul {
+	color: #269CBF;
+}
+
+span.adendo {
+	font-size: 30px;
+	padding: 15px;
+}
+
+div.calculo_prosperidade {
+	margin-bottom: 20px;
+}

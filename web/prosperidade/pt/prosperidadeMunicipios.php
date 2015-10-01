@@ -1,4 +1,4 @@
-<div id="processo" style="width:900px; height: 1600px;">
+<div id="processo" style="width:900px;">
     <!-- <div class="areatitle">O processo de construção do Atlas Brasil</div> -->
     <h2> Municípios </h2>
     <p>O cruzamento das faixas do IDHM e do IVS, que gera a Prosperidade Social, é apresentado no gráfico, a seguir. Nele está apontado o número de municípios brasileiros que se encontram em cada faixa (cor) da Prosperidade Social em 2010. </p>

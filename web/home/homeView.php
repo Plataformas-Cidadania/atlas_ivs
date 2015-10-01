@@ -119,7 +119,7 @@
             <a href="data/rawData/publicacao_atlas_ivs.pdf"><img src="./assets/img/home/banner/modelo_banner_site_v02.jpg" alt=""></a>
         </li>
         <li>
-            <a href="<data/rawData/publicacao_atlas_ivs_rm.pdf"><img src="./assets/img/home/banner/banner_ivs_rm.jpg" alt=""></a>
+            <a href="data/rawData/publicacao_atlas_ivs_rm.pdf"><img src="./assets/img/home/banner/banner_ivs_rm.jpg" alt=""></a>
         </li>
         <!-- <li>
             <a href="<?php echo $path_dir . "$ltemp" ?>/destaques/"><img src="./assets/img/home/banner/banner_2.jpg" alt=""></a>
@@ -262,7 +262,7 @@
         </div>
         <div class="nh-video-descricao">
         <h3 class="nh-subtitle nh-left">Ipea elabora Índice de Vulnerabilidade Social de municípios</h3>
-        <p>PANORAMA IPEA - 31.08.15: O Instituto de Pesquisa Econômica Aplicada (Ipea), em parceria com outras seis instituições, construiu um Índice de Vulnerabilidade Social (IVS) para os mais de 5 mil municípios brasileiros. Para falar sobre vulnerabilidade social e políticas públicas, o programa recebeu Marco Aurélio Costa, diretor de Estudos e Políticas Regionais Urbanas e Ambientais do Ipea e Secretário de Avaliação e Gestão da Informação do Ministério do Desenvolvimento Social e Combate à Fome.
+        <p>PANORAMA IPEA - 31.08.15: O Instituto de Pesquisa Econômica Aplicada (Ipea), em parceria com outras seis instituições, construiu um Índice de Vulnerabilidade Social (IVS) para os mais de 5 mil municípios brasileiros. Para falar sobre vulnerabilidade social e políticas públicas, o programa recebeu Marco Aurélio Costa, diretor de Estudos e Políticas Regionais Urbanas e Ambientais do Ipea e Paulo Jannuzzi, Secretário de Avaliação e Gestão da Informação do Ministério do Desenvolvimento Social e Combate à Fome.
         </p>
         </div>
   

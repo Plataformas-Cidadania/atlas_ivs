@@ -158,7 +158,7 @@ foreach ($link as $value) {
                    if (consulta_has_lang(@$_SESSION["lang"])) {
                        ?>
                 <li><a href="<?php echo $path_dir; ?><?php echo $_SESSION["lang"]; ?>/prosperidade/" <?php
-                if ($pag == 'prosperidade' && $pagNext2 == '') {
+                if ($pag == 'prosperidade') {
                     echo 'class="ativo"';
                 }
                 ?> id="menu_prosperidade"><?php echo $lang_mng->getString('menu_prosperidade'); ?></a></li>

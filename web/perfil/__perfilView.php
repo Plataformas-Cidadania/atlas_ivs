@@ -17,7 +17,6 @@ require_once 'controller/Perfil.class.php';
 $perfil = new Perfil($MunicipioPefil);
 
 ?>
-
 <meta name="description" content="" />
 <script type="text/javascript">
 

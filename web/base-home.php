@@ -27,7 +27,7 @@ function rez(){
     pag = '<?=$pag?>';
     pagNext = '<?=$pagNext?>';
     pagNext2 = '<?=$pagNext2?>';
-    if(pag == 'destaques' || pag == 'consulta' || pag == 'perfil' || pag == 'download' || pag == 'ranking' || pag == 'arvore' ||
+    if(pag == 'destaques' || pag == 'consulta' || pag == 'perfil' || pag == 'download' || pag == 'ranking' || pag == 'arvore' || pag == 'prosperidade' ||
         (pag == 'o_atlas' && (pagNext == '' || pagNext == 'o_atlas_' || pagNext == 'quem_faz' || pagNext == 'para_que' || pagNext == 'processo' || pagNext == 'desenvolvimento_humano' || pagNext == 'idhm' || pagNext == 'metodologia' && (pagNext2 == 'idhm_longevidade' || pagNext2 == 'idhm_educacao' || pagNext2 == 'idhm_renda') || pagNext == 'glossario' || pagNext == 'perguntas_frequentes' || pagNext == 'tutorial' || pagNext == ''))){
         document.getElementById("setaMenu").style.display = 'block';
         var pos = $(".mainMenuTopUl .ativo").position();

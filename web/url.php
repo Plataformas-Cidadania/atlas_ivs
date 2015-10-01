@@ -297,7 +297,11 @@ else if ($pag == "prosperidade") {
     if ($pagNext != ""  && $pagNext != "udh"  && $pagNext != "regiao-metropolitana"  && $pagNext != "estados"  && $pagNext != "municipios") {
         include './bloqueios/paginaNaoEncontradaView.php';
     } else {
-        include "./prosperidade/prosperidadeView.php";
+    	if ($pagNext2 == 'semconexao') {
+    		include "./bloqueios/paginaSemConexaoView.php";
+    	} else {
+        	include "./prosperidade/prosperidadeView.php";
+    	}
     }
 }
 

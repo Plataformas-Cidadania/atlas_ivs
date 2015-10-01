@@ -53,6 +53,10 @@
         <div class="linhaDivisoria"></div>
         
         <div id="conteudo_atlas">
+        	<a href="http://g1.globo.com/distrito-federal/noticia/2015/09/vulnerabilidade-social-cai-mas-ainda-e-alta-no-norte-e-no-nordeste-diz-ipea.html">Vulnerabilidade social cai, mas ainda é alta no Norte e no Nordeste, diz Ipea</a>
+			<a href="http://g1.globo.com/al/alagoas/noticia/2015/09/al-e-o-estado-do-nordeste-com-maior-vulnerabilidade-social-revela-ipea.html">AL é o estado do Nordeste com maior vulnerabilidade social, revela Ipea</a>
+			<a href="http://diariocatarinense.clicrbs.com.br/sc/economia/noticia/2015/09/vulnerabilidade-social-o-que-significa-o-indice-do-ipea-em-que-sc-se-destaca-4838033.html">Vulnerabilidade social: o que significa o índice do Ipea em que SC se destaca</a>
+			<a href="http://g1.globo.com/pa/para/noticia/2015/09/riquezas-do-minerio-nao-chegam-aos-moradores-de-maraba-diz-ipea.html">Riquezas do minério não chegam aos moradores de Marabá, diz Ipea</a>
             <?php/*
             if ($separator[1] == 'metodologia' || $separator[1] == '') {
                 include 'destaques/' . $_SESSION["lang"] . '/metodologiaView.php';

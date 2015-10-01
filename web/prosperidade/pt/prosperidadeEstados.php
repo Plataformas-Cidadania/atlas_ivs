@@ -1,4 +1,4 @@
-<div id="processo" style="width:900px; height: 1600px;">
+<div id="processo" style="width:900px;">
     <!-- <div class="areatitle">O processo de construção do Atlas Brasil</div> -->
     <h2> Estados </h2>
 	
