@@ -99,34 +99,34 @@
         <div class="linhaDivisoria"></div>
 
         <div id="conteudo_atlas">
-        <div>
-                <img style="width:60px; height:60px" src="./assets/img/icons/favicon.png" />
-        	    <a style="display: inline-block;font-size: 20px;margin-bottom: 8px;" href="http://g1.globo.com/distrito-federal/noticia/2015/09/vulnerabilidade-social-cai-mas-ainda-e-alta-no-norte-e-no-nordeste-diz-ipea.html">
+        	<div>
+                <img src="./assets/img/icons/favicon.png" />
+        	    <a style="display: inline-block;font-size: 16px;margin-bottom: 16px;" href="http://g1.globo.com/distrito-federal/noticia/2015/09/vulnerabilidade-social-cai-mas-ainda-e-alta-no-norte-e-no-nordeste-diz-ipea.html">
                     <span style="float:left;">Vulnerabilidade social cai, mas ainda é alta no Norte e no Nordeste, diz Ipea</span>
-                    <span style="float:left; clear:left;">terça-feira, 1 de setembro de 2015 - 12:16:18</span>
+                    <span style="float:left; clear:left; color:#AAA; font-size:12px;">terça-feira, 1 de setembro de 2015 - 12:16:18</span>
                     <span style="clear:both;"></span>
                 </a>
             </div>
             <div>
-                <img style="width:60px; height:60px" src="./assets/img/icons/favicon.png" />
-                <a style="display: inline-block;font-size: 20px;margin-bottom: 8px;" href="http://g1.globo.com/al/alagoas/noticia/2015/09/al-e-o-estado-do-nordeste-com-maior-vulnerabilidade-social-revela-ipea.html">
+                <img src="./assets/img/icons/favicon.png" />
+                <a style="display: inline-block;font-size: 16px;margin-bottom: 16px;" href="http://g1.globo.com/al/alagoas/noticia/2015/09/al-e-o-estado-do-nordeste-com-maior-vulnerabilidade-social-revela-ipea.html">
                     <span style="float:left;">AL é o estado do Nordeste com maior vulnerabilidade social, revela Ipea</span>
-                    <span style="float:left; clear:left;">terça-feira, 1 de setembro de 2015 - 13:06:08</span>
+                    <span style="float:left; clear:left; color:#AAA; font-size:12px;">terça-feira, 1 de setembro de 2015 - 13:06:08</span>
                     <span style="clear:both;"></span>
                 </a>
             <div>
-                <img style="width:60px; height:60px" src="./assets/img/icons/favicon.png" />
-                <a style="display: inline-block;font-size: 20px;margin-bottom: 8px;" style="display:" href="http://diariocatarinense.clicrbs.com.br/sc/economia/noticia/2015/09/vulnerabilidade-social-o-que-significa-o-indice-do-ipea-em-que-sc-se-destaca-4838033.html">
+                <img src="./assets/img/icons/favicon.png" />
+                <a style="display: inline-block;font-size: 16px;margin-bottom: 16px;" style="display:" href="http://diariocatarinense.clicrbs.com.br/sc/economia/noticia/2015/09/vulnerabilidade-social-o-que-significa-o-indice-do-ipea-em-que-sc-se-destaca-4838033.html">
                     <span style="float:left;">Vulnerabilidade social: o que significa o índice do Ipea em que SC se destaca</span>
-                    <span style="float:left; clear:left;">terça-feira, 1 de setembro de 2015 - 13:23:00</span>
+                    <span style="float:left; clear:left; color:#AAA; font-size:12px;">terça-feira, 1 de setembro de 2015 - 13:23:00</span>
                     <span style="clear:both;"></span>
                 </a>
             </div>
             <div>
-                <img style="width:60px; height:60px" src="./assets/img/icons/favicon.png" />
-			    <a style="display: inline-block;font-size: 20px;margin-bottom: 8px;" href="http://g1.globo.com/pa/para/noticia/2015/09/riquezas-do-minerio-nao-chegam-aos-moradores-de-maraba-diz-ipea.html">
+                <img src="./assets/img/icons/favicon.png" />
+			    <a style="display: inline-block;font-size: 16px;margin-bottom: 16px;" href="http://g1.globo.com/pa/para/noticia/2015/09/riquezas-do-minerio-nao-chegam-aos-moradores-de-maraba-diz-ipea.html">
                     <span style="float:left;">Riquezas do minério não chegam aos moradores de Marabá, diz Ipea</span>
-                    <span style="float:left; clear:left;">terça-feira, 8 de setembro de 2015 - 17:24:14</span>         
+                    <span style="float:left; clear:left; color:#AAA; font-size:12px;">terça-feira, 8 de setembro de 2015 - 17:24:14</span>         
                     <span style="clear:both;"></span>
                 </a>
             </div>
