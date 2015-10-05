@@ -30,7 +30,12 @@
 }
 </style>
 <div class="lista-destaques" >
-    <ul class="lista" >
+      <a href="http://g1.globo.com/distrito-federal/noticia/2015/09/vulnerabilidade-social-cai-mas-ainda-e-alta-no-norte-e-no-nordeste-diz-ipea.html">Vulnerabilidade social cai, mas ainda é alta no Norte e no Nordeste, diz Ipea</a>
+      <a href="http://g1.globo.com/al/alagoas/noticia/2015/09/al-e-o-estado-do-nordeste-com-maior-vulnerabilidade-social-revela-ipea.html">AL é o estado do Nordeste com maior vulnerabilidade social, revela Ipea</a>
+      <a href="http://diariocatarinense.clicrbs.com.br/sc/economia/noticia/2015/09/vulnerabilidade-social-o-que-significa-o-indice-do-ipea-em-que-sc-se-destaca-4838033.html">Vulnerabilidade social: o que significa o índice do Ipea em que SC se destaca</a>
+      <a href="http://g1.globo.com/pa/para/noticia/2015/09/riquezas-do-minerio-nao-chegam-aos-moradores-de-maraba-diz-ipea.html">Riquezas do minério não chegam aos moradores de Marabá, diz Ipea</a>
+
+    <!--<ul class="lista" >
         <li>
            <div class="data-noticia"> <i>25/11/2014 </i></div>
            <a id='destaques_metodologia' onclick="myfunction('3')" style="font-size:13px;" >
@@ -44,7 +49,7 @@
           <a id='destaques_metodologia' onclick="myfunction('3')" style="font-size:13px;" >
              Saiba mais  
          </a><!-- <span class='ballMarker'>&bull;</span> -->
-     </li>
+     <!--</li>
      <li>
        <div class="data-noticia"> <i>25/11/2014 </i></div>
        <a id='destaques_metodologia' onclick="myfunction('2')" style="font-size:13px;" >
@@ -57,7 +62,7 @@
       <a id='destaques_faixas_idhm' onclick="myfunction('2')" style="font-size:13px;">
           Saiba Mais
       </a><!-- <span class='ballMarker'>&bull;</span> -->
-  </li>
+  <!--</li>
     <li>
 <div class="data-noticia"> <i>29/07/2013 </i></div>
     <a id='destaques_metodologia' onclick="myfunction('7')" style="font-size:13px;" >
@@ -68,10 +73,10 @@
     </a>
 
     <!-- Atlas traz agora IDHM por mais de 9 mil áreas de 16 Regiões Metropolitanas brasileiras.  -->
-    <a id='destaques_metodologia' onclick="myfunction('7')" style="font-size:13px;" >
+    <!--<a id='destaques_metodologia' onclick="myfunction('7')" style="font-size:13px;" >
         Saiba mais  
     </a><!-- <span class='ballMarker'>&bull;</span> -->
-</li>
+<!--</li>
   <li>
 <div class="data-noticia"> <i>29/07/2013 </i></div>
     <a id='destaques_metodologia' onclick="myfunction('4')" style="font-size:13px;" >
@@ -82,10 +87,10 @@
     </a>
 
     <!-- Atlas traz agora IDHM por mais de 9 mil áreas de 16 Regiões Metropolitanas brasileiras.  -->
-    <a id='destaques_metodologia' onclick="myfunction('4')" style="font-size:13px;" >
+    <!--<a id='destaques_metodologia' onclick="myfunction('4')" style="font-size:13px;" >
         Saiba mais  
     </a><!-- <span class='ballMarker'>&bull;</span> -->
-</li>
+<!--</li>
 
   <li>
 <div class="data-noticia"> <i>29/07/2013 </i></div>
@@ -97,10 +102,10 @@
     </a>
 
     <!-- Atlas traz agora IDHM por mais de 9 mil áreas de 16 Regiões Metropolitanas brasileiras.  -->
-    <a id='destaques_metodologia' onclick="myfunction('5')" style="font-size:13px;" >
+    <!--<a id='destaques_metodologia' onclick="myfunction('5')" style="font-size:13px;" >
         Saiba mais  
     </a><!-- <span class='ballMarker'>&bull;</span> -->
-</li>
+<!--</li>
   <li>
 <div class="data-noticia"> <i>29/07/2013 </i></div>
     <a id='destaques_metodologia' onclick="myfunction('6')" style="font-size:13px;" >
@@ -111,10 +116,10 @@
     </a>
 
     <!-- Atlas traz agora IDHM por mais de 9 mil áreas de 16 Regiões Metropolitanas brasileiras.  -->
-    <a id='destaques_metodologia' onclick="myfunction('6')" style="font-size:13px;" >
+    <!--<a id='destaques_metodologia' onclick="myfunction('6')" style="font-size:13px;" >
         Saiba mais  
     </a><!-- <span class='ballMarker'>&bull;</span> -->
-</li>
+</li>-->
 
 <!--                 <li><a id='destaques_idhmBrasil' onclick="myfunction('3')" style="font-size:13px;" 
                 <?php
