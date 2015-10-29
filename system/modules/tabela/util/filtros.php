@@ -111,7 +111,7 @@
 
         $con = $minhaConexao->open();
         
-        $sql = "SELECT fk_variavel,fk_tema FROM variavel_has_tema";
+        $sql = "SELECT fk_variavel, fk_tema FROM variavel_has_tema INNER JOIN variavel ON fk_variavel = variavel.id ORDER BY ordem ASC";
 
         $q = pg_query($con, $sql) or die("Nao foi possivel executar a consulta!");
         

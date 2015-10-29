@@ -141,7 +141,7 @@ class NomeIndicadorDao {
      */
     private function _getIndicadoresTemaArray()
     {
-        $sql = "SELECT fk_variavel, fk_tema FROM variavel_has_tema";
+        $sql = "SELECT fk_variavel, fk_tema FROM variavel_has_tema INNER JOIN variavel ON fk_variavel = variavel.id ORDER BY ordem ASC";
 
         $this->bd->execSql($sql);
 
