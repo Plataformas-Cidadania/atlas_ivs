@@ -15,7 +15,7 @@
 		<h2>Setor censitário</h2>
 		<p>O setor censitário é constituído de áreas contíguas, delimitadas para atender aos parâmetros da coleta e para controle cadastral. Situa-se em um único quadro urbano ou rural e o número de domicílios nele contidos e sua dimensão territorial são definidos de forma a permitir o levantamento das informações por um único recenseador. É definido em função da rota do recenseador, obedecendo a barreiras físicas e à lógica dos logradouros. Sua configuração assemelha-se às rotas dos leituristas de relógio de água, de energia elétrica, de endereçamento postal ou de coleta de lixo (normalmente quarteirões em centros urbanos, prédios muito grandes, etc). Com isso, tende a ser mais homogêneo nas áreas de maior densidade populacional e menos nas mais rarefeitas.</p>
 		
-		<h2>O que é uma área de ponderação</h2>
+		<h2>Área de ponderação</h2>
 		<p>A área de ponderação, por seu turno, é uma unidade geográfica formada por um agrupamento de setores censitários contíguos, para a aplicação dos procedimentos de calibração das estimativas obtidas com a amostra com as informações conhecidas para a população como um todo.</p>
 		
 		
