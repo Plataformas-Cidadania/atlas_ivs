@@ -1,6 +1,6 @@
 <div id="processo" style="width:900px;">
     <!-- <div class="areatitle">O processo de construção do Atlas Brasil</div> -->
-    <h2> Unidade de Desenvolvimento Humano </h2>
+    <h2>A PROSPERIDADE SOCIAL NAS UNIDADES DE DESENVOLVIMENTO HUMANO BRASILEIRAS</h2>
 	
     <p>O cruzamento das faixas do IDHM e do IVS, que gera a Prosperidade Social, é apresentado no gráfico, a seguir. Nele está apontado o número de Unidades de Desenvolvimento Humano (UDHs) que se encontram em cada faixa (cor) da Prosperidade Social em 2010.  </p>
     <img src="./assets/img/prosperidade/udh/matriz.png" style="height:300px; float:left;">

@@ -1,6 +1,6 @@
 <div id="processo" style="width:900px;">
     <!-- <div class="areatitle">O processo de construção do Atlas Brasil</div> -->
-    <h2> Municípios </h2>
+    <h2> A PROSPERIDADE SOCIAL NOS MUNICÍPIOS BRASILEIROS </h2>
     <p>O cruzamento das faixas do IDHM e do IVS, que gera a Prosperidade Social, é apresentado no gráfico, a seguir. Nele está apontado o número de municípios brasileiros que se encontram em cada faixa (cor) da Prosperidade Social em 2010. </p>
     <img src="./assets/img/prosperidade/municipio/matriz.png" style="height:300px; float:left;">
     <p>Nas faixas mais elevadas da Prosperidade Social (<em>alta</em> e <em>muito alta</em>), em 2010, há um total de 2.569 municípios que conjugam <em>médio</em> ou um <em>alto/muito alto</em> Desenvolvimento Humano, com uma <em>média</em> ou <em>baixa/muito baixa</em> Vulnerabilidade Social. </p>

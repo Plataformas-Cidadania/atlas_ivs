@@ -1,6 +1,6 @@
 <div id="processo" style="width:900px;">
     <!-- <div class="areatitle">O processo de construção do Atlas Brasil</div> -->
-    <h2> Regiões Metropolitanas </h2>
+    <h2> A PROSPERIDADE SOCIAL NAS REGIÕES METROPOLITANAS BRASILEIRAS </h2>
 	
     <p>O cruzamento das faixas do IDHM e do IVS, que gera a Prosperidade Social, é apresentado no gráfico, a seguir. Nele está apontado o número de regiões metropolitanas (RMs) que se encontram em cada faixa (cor) da Prosperidade Social em 2010. </p>
     <img src="./assets/img/prosperidade/rm/matriz.png" style="height:300px; float:left;">
