@@ -274,7 +274,7 @@
             </div>
         <?php } ?>
         <h3><span class="destaque_azul">O QUE É A PROSPERIDADE SOCIAL?</span></h3>
-        <p>A análise integrada do Desenvolvimento Humano com a Vulnerabilidade Social oferece o que se denomina aqui de <span class="destaque_azul">Prosperidade Social</span>, a ocorrência simultânea do <em>alto</em> Desenvolvimento Humano com a <em>baixa</em> Vulnerabilidade Social, sugerindo que nas porções do território onde ela se verifica, ocorre uma trajetória de desenvolvimento humano menos vulnerável e socialmente mais próspera. </p>
+        <p>A análise integrada do Desenvolvimento Humano com a Vulnerabilidade Social oferece o que se denomina aqui de <strong class="destaque_azul">Prosperidade Social</strong>, a ocorrência simultânea do <em>alto</em> Desenvolvimento Humano com a <em>baixa</em> Vulnerabilidade Social, sugerindo que nas porções do território onde ela se verifica, ocorre uma trajetória de desenvolvimento humano menos vulnerável e socialmente mais próspera. </p>
         <p>A Prosperidade Social, nesse sentido, reflete uma situação em que o desenvolvimento humano se assenta em bases sociais mais robustas, onde o capital familiar e escolar, as con-dições de inserção no mundo do trabalho e as condições de moradia e de acesso à infraes-trutura urbana da população são tais que há uma perspectiva de prosperidade não apenas econômica, mas das condições de vida no meio social. </p>
 
         <div id="conteudo_atlas">
