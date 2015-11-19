@@ -15,12 +15,12 @@
         pag = '<?=$path_dir?>' + lang + '/o_atlas/metodologia/';
 
         if(valor == 1){
-            url = pag + "calculo-do-ivs/";
+            url = pag + "ivs_dados/";
             /*url = pag + "calculo-do-idhm-e-seus-subindices/";*/
         }
 
         else if(valor == 2){
-            url = pag + "ivs_dados/";
+            url = pag + "calculo-do-ivs/";
             
         }
 
@@ -29,7 +29,7 @@
         }
 
         else if(valor == 4){
-            url = pag + "construcao-das-unidades-de-desenvolvimento-humano/";
+            url = pag + "udh/";
         }
         
         location.href= url;
@@ -47,10 +47,10 @@
                 <span class='ballMarker'>&bull;</span>
                 </li>              
                 <li><a id="atlas_menuProsperidade" onclick="myfunction2('3')" 
-                <?php if($separator[2] == 'prosperidade' || $separator[0] == '') {echo 'class="ativo2"'; } ?>>Prosperidade</a><!--<span class='ballMarker'>&bull;</span>--></li>
-            <!--<li><a id="atlas_menuIvs" onclick="myfunction2('2')" 
-                <?php if($separator[2] == 'idhm_educacao') {echo 'class="ativo2"';}?> >IVS EDUCAÇÃO</a><span class='ballMarker'>&bull;</span></li>
-            <li><a id="atlas_menuIvs" onclick="myfunction2('3')" 
+                <?php if($separator[2] == 'prosperidade') {echo 'class="ativo2"'; } ?>>Prosperidade</a><<span class='ballMarker'>&bull;</span></li>
+            	<li><a id="atlas_menuIvs" onclick="myfunction2('4')" 
+                <?php if($separator[2] == 'udh') {echo 'class="ativo2"';}?> >UDH</a><!--  <span class='ballMarker'>&bull;</span> --></li>
+            <!--<li><a id="atlas_menuIvs" onclick="myfunction2('3')" 
                 <?php if($separator[2] == 'idhm_renda') {echo 'class="ativo2"';} ?> >IVS RENDA</a></li>
                 <li>
                     <a id="atlas_aba_2" onclick="myfunction2('4')" 
@@ -74,9 +74,9 @@
                     include 'o_atlas/'.$_SESSION["lang"].'/prosperidadeMetView.php';
                 }
                 
-                /*else if($separator[2] == 'idhm_renda'){
-                    include 'o_atlas/'.$_SESSION["lang"].'/idhmRendaView.php';
-                }*/
+                else if($separator[2] == 'udh'){
+                    include 'o_atlas/'.$_SESSION["lang"].'/udhMetodologiaView.php';
+                }
 
                 else {
                     include 'o_atlas/'.$_SESSION["lang"].'/ivsDadosView.php';
