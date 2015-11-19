@@ -116,10 +116,10 @@
     
     <ul>
         <li class='ativo'>
-            <a href="data/rawData/publicacao_atlas_ivs.pdf"><img src="./assets/img/home/banner/modelo_banner_site_v02.jpg" alt=""></a>
+            <a target="_blank" href="data/rawData/publicacao_atlas_ivs.pdf"><img src="./assets/img/home/banner/modelo_banner_site_v02.jpg" alt=""></a>
         </li>
         <li>
-            <a href="data/rawData/publicacao_atlas_ivs_rm.pdf"><img src="./assets/img/home/banner/banner_ivs_rm.jpg" alt=""></a>
+            <a target="_blank" href="data/rawData/publicacao_atlas_ivs_rm.pdf"><img src="./assets/img/home/banner/banner_ivs_rm.jpg" alt=""></a>
         </li>
         <!-- <li>
             <a href="<?php echo $path_dir . "$ltemp" ?>/destaques/"><img src="./assets/img/home/banner/banner_2.jpg" alt=""></a>
