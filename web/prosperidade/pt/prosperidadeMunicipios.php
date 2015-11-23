@@ -8,8 +8,8 @@
     
     <p>Destes, cinco apresentam a combinação de <em>alto</em> Desenvolvimento Humano com <em>alta</em> Vulnerabilidade Social. Nestes municípios verifica-se que a condição de elevado Desenvolvimento Humano (educação, longevidade e renda) não se reverteram na redução do quadro de Vulnerabilidade Social instalada. </p>
     <p style="clear:both;">A tabela e o gráfico abaixo trazem a comparação para o período 2000/2010.</p>
-    <img src="./assets/img/prosperidade/municipio/tabela.png" style="width:600px;">
-    <img src="./assets/img/prosperidade/municipio/grafico.png" style="width:600px;">
+    <img src="./assets/img/prosperidade/municipio/tabela.png" style="width:700px;">
+    <img src="./assets/img/prosperidade/municipio/grafico.png" style="width:700px;">
     <p>Observa-se um aumento do número de municípios na faixa da <em>muito alta</em> Prosperidade Social, em 2000, apenas 103 municípios (cerca de 2%) se encontravam nesta faixa, que passa a abrigar 1.685 municípios (30%), em 2010. </p>
     <p>No outro extremo, observa-se uma redução no número de municípios que se encontram na faixa da <em>muito baixa</em> Prosperidade Social, eram 3.415 municípios brasileiros (62%), em 2000, número reduzido para 1.302 (23%), em 2010.</p>
 
