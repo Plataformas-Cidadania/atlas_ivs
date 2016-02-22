@@ -4037,7 +4037,9 @@ button.disabled {
 }
 
 #processo img {
-    padding-top: 10px;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
 }
 
 .nh-perfil-busca a {
