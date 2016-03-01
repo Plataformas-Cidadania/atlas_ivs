@@ -181,7 +181,7 @@
          <div class="nh-box">
             <div class="nh-box-content" style="text-align:left;">
                 <span style="font-size:22pt; line-height: 32px; color: #333;font-family: 'Passion One', cursive;"></span>
-                <span style="font-size:22pt; line-height: 32px; color: #333;font-family: 'Passion One', cursive;"><?php echo $lang_mng->getString('home_escolha_como') ?></span>
+                <span class="nh-title" style="font-size:22pt; line-height: 32px; color: #333;"><?php echo $lang_mng->getString('home_escolha_como') ?></span>
             </div>
         </div> <!-- /nh-box -->
         <div class="nh-box">

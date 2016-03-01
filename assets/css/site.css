@@ -4077,3 +4077,7 @@ span.adendo {
 div.calculo_prosperidade {
 	margin-bottom: 20px;
 }
+
+html * {
+	text-rendering: auto;
+}
